@@ -1,0 +1,36 @@
+div {
+    padding: 3px 0;
+}
+
+label {
+    font-weight: 400;
+}
+
+input[type=submit] {
+    background: var(--background-input-s);
+    background-size: 200%;
+    background-position: right;
+    color: white;
+    border: none;
+    outline: none;
+    width: 10%;
+    height: 30px;
+    border-radius: 15px;
+    transition: .3s ease-in;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+input[type=submit]:hover {
+    background-position: left;
+    cursor: pointer;
+}
+
+input[type=text] {
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 25px;
+}

@@ -1,0 +1,17 @@
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+    color: var(--grey);
+    transition: .3s all;
+}
+
+ul li a:hover {
+    color: var(--blue);
+}

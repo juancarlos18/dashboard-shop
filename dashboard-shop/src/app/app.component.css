@@ -1,0 +1,12 @@
+:host {
+    --blue: rgb(64, 6, 223);
+    --grey: rgb(107, 113, 119);
+    --background-input-s: linear-gradient(to right, rgb(120, 0, 189), rgb(170, 24, 255), rgb(120, 0, 189));
+}
+
+* { font-family: 'Poppins', sans-serif; }
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+}

@@ -1,0 +1,74 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+}
+
+div { padding: 5px 0; }
+
+.title {
+    display: flex;
+    padding: 0 5px;
+    width: 50%;
+}
+
+.price {
+    width: 15%;
+    padding: 0 5px;
+}
+
+.quantity {
+    width: 10%;
+    padding: 0 5px;
+}
+
+.total {
+    width: 15%;
+    padding: 0 5px;
+    color: rgb(1, 133, 93);
+    font-weight: 500;
+}
+
+.actions-btn {
+    width: 10%;
+    padding: 0 5px;
+    text-align: center;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.actions-btn button {
+    background: linear-gradient(to right, rgb(0, 158, 221), rgb(0, 52, 224), rgb(0, 158, 221));
+    background-size: 200%;
+    background-position: right;
+    border: none;
+    width: 70%;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: .3s ease-in;
+}
+
+.actions-btn button:hover {
+    background-position: left;
+}
+
+
+/* Completed */
+
+.completed {
+    text-decoration: line-through;
+    color: #99b9b7;
+}
+
+.completed .total {
+    color: #99b9b7;
+}
+
+/* Completed */
